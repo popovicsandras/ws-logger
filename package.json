@@ -1,0 +1,26 @@
+{
+  "name": "@workshare/ws-logger",
+  "version": "0.0.1",
+  "description": "Default Workshare logger implementation",
+  "main": "index.js",
+  "files": [
+    "source/",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popovicsandras/ws-logger.git"
+  },
+  "author": "Workshare",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "log4js-config": "^0.1.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}
