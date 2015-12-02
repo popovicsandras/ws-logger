@@ -3,10 +3,12 @@
 var Logger = require('./Logger');
 
 class LoggerFactory {
-    //logger = new Logger();
+    constructor() {
+        this.logger = new Logger();
+    }
 
     get (name) {
-        return logger;
+        return this.logger;
     }
 }
 
